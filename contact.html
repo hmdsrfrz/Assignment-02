@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us! Have questions or feedback? Fill out the form and we'll get back to you soon.">
+    <meta name="keywords" content="Contact, Support, Tech Blog, AI, Web Development, Cybersecurity">
+    <meta name="author" content="Momin Shah, Jameel Anwar, Hamid Sarfraz">
+
+    <!-- Page Title -->
+    <title>Contact Us - Tech Blog</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/laptop.png">
+
+    <!-- CSS -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- JavaScript -->
+<script src="js/script.js" defer></script>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Got a question, feedback, or just want to say hi?  
+               Fill out the form below, and we'll get back 
+               to you as soon as we can!</p>
+
+            <!-- Contact Form -->
+            <form action="index.html">
+                
+                <!-- Name Field -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" 
+                placeholder="Enter your full name" required 
+                maxlength="50" pattern="[A-Za-z\s]+">
+
+                <!-- Email Field -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" 
+                placeholder="Enter your email" required  
+                required maxlength="100"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+                <!-- Message Field -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" 
+                placeholder="Type your message here" 
+                required maxlength="700" 
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy;  Momin Shah | Jameel Anwar | Hamid Sarfraz </p>
+    </footer>
+
+</body>
+</html>
