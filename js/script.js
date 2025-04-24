@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Welcome notification
+    // Welcome notification!!!
     const welcomeBanner = document.createElement('div');
     welcomeBanner.className = 'welcome-banner';
     welcomeBanner.innerHTML = `
-        <p>Welcome to our Tech Blog! Explore the latest in technology.</p>
+        <p>Welcome to our Tech Blog!! Explore the latest in technology.</p>
         <button class="close-banner">&times;</button>
     `;
     document.body.prepend(welcomeBanner);
